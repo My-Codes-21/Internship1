@@ -1,4 +1,4 @@
-package Phanka;
+package Phanka1;
 import java.util.*;
 
 public class FanDemo {

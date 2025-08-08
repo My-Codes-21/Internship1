@@ -1,4 +1,4 @@
-package Phanka;
+package Phanka1;
 public enum FanSpeed {
     OFF, LOW, MEDIUM, HIGH;
     public FanSpeed increase() {

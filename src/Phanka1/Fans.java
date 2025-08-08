@@ -1,4 +1,4 @@
-package Phanka;
+package Phanka1;
 public class Fans {
     private boolean isOn = false;
     private FanSpeed speed;
