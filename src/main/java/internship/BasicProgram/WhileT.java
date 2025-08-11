@@ -1,4 +1,4 @@
-package BasicProgram;
+package main.java.internship.BasicProgram;
 import java.util.Scanner;
 
 public class WhileT {

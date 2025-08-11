@@ -1,4 +1,4 @@
-package Phanka1;
+package main.java.internship.Phanka1;
 public class Fans {
     private boolean isOn = false;
     private FanSpeed speed;

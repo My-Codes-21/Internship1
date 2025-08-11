@@ -1,4 +1,4 @@
-package Phanka1;
+package main.java.internship.Phanka1;
 public enum FanSpeed {
     OFF, LOW, MEDIUM, HIGH;
     public FanSpeed increase() {

@@ -1,4 +1,4 @@
-package BasicProgram;
+package main.java.internship.BasicProgram;
 
 public class CommonJava {
     public static void main(String[] args) {
