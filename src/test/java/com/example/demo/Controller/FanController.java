@@ -16,16 +16,26 @@ public class FanController {
     @GetMapping("/fan/switchon/{fanNumber}")
     public void switchOn(@PathVariable Integer fanNumber){
         System.out.println("Fan number to switch on : " + fanNumber);
-        fanServices.switchOn();
+        fanServices.switchOn(fanNumber);
 
     }
-    public void switchOff(){
+    @GetMapping("/fan/switchoff/{fanNumber}")
+    public void switchOff(@PathVariable Integer fanNumber){
+        System.out.println("Fan is switched off: "+fanNumber);
+        fanServices.switchOff(fanNumber);
 
     }
-    public void IncreaseSpeed(){
+
+    @GetMapping("/fan/increase/{fanNumber}")
+    public void IncreaseSpeed(@PathVariable Integer fanNumber){
+        fanServices.IncreaseSpeed(fanNumber);
 
     }
-    public void DecreaseSpeed(){
+
+    @GetMapping("/fan/decrease/{fanNumber}")
+    public void DecreaseSpeed(@PathVariable Integer fanNumber){
+        fanServices.DecreaseSpeed(fanNumber
+        );
 
     }
     @GetMapping("/fan/report")
