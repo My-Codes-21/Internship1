@@ -1,9 +1,10 @@
 package com.example.demo.Services;
 
 import Fan.Fans;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
-
+@Service
 public class FanServices {
     ArrayList<Fans> FansArrayList = new ArrayList<>();
     public FanServices() {

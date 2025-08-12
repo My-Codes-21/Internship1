@@ -3,6 +3,7 @@ package com.example.demo.Controller;
 import com.example.demo.Services.FanServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -12,8 +13,9 @@ public class FanController {
     public FanController(FanServices fanServices){
         this.fanServices = fanServices;
     }
-    @GetMapping("/Fan/switchOn")
-    public void switchOn(int fanNumber){
+    @GetMapping("/fan/switchon/{fanNumber}")
+    public void switchOn(@PathVariable Integer fanNumber){
+        System.out.println("Fan number to switch on : " + fanNumber);
         fanServices.switchOn();
 
     }
