@@ -26,7 +26,9 @@ public class FanController {
     public void DecreaseSpeed(){
 
     }
+    @GetMapping("/fan/report")
     public void report(){
+        fanServices.report();
 
     }
 }
