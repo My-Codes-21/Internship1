@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
@@ -5,6 +6,14 @@ target/
 !**/src/test/**/target/
 
 ### STS ###
+=======
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+>>>>>>> 9a5bd61f22a6c417144a50545442b3c68c9c4222
 .apt_generated
 .classpath
 .factorypath
@@ -12,12 +21,18 @@ target/
 .settings
 .springBeans
 .sts4-cache
+<<<<<<< HEAD
 
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
+=======
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+>>>>>>> 9a5bd61f22a6c417144a50545442b3c68c9c4222
 
 ### NetBeans ###
 /nbproject/private/
@@ -25,9 +40,18 @@ target/
 /dist/
 /nbdist/
 /.nb-gradle/
+<<<<<<< HEAD
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
 ### VS Code ###
 .vscode/
+=======
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+>>>>>>> 9a5bd61f22a6c417144a50545442b3c68c9c4222
